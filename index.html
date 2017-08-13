@@ -1,5 +1,13 @@
 <!DOCTYPE html><html>
 <head>
+<script>
+window.onload=function(){
+function goster(){
+$("#content").slideToggle(1000);
+}
+setTimeout(goster,3000);
+}
+</script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -12,15 +20,18 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<div> 
-<h1>İsmailb Şifreleme</h1>
+<div id="loadingbox">
+<div id="content" class="gizli"> 
+<button onclick="history.back()">Geri</button>
+<h1>Şifreleme</h1>
 <!--h2>"ş","ğ", küçük "ı"ve emoji kullanmayın</h2-->
 <button onclick="encode()">Şifrele</button>
 <button onclick="decode()">Şifreyi Çöz</button>
 </div>
   <script src="img/jquery.min.js"></script>
   <script src="script.js"></script>
-</body>
+</div>
+  </body>
 </html>
 
 
