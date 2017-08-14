@@ -1,4 +1,4 @@
-function encode(){
+﻿function encode(){
 var yazi = prompt("Kodlamak İstediğiniz Yazıyı Yazınız")
 if(yazi == null){
 console.log("null engellendi")
