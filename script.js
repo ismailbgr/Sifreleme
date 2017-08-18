@@ -1,5 +1,5 @@
 ﻿function encode(){
-var yazi = prompt("Kodlamak İstediğiniz Yazıyı Yazınız")
+var yazi = prompt("Kodlamak İstediğiniz Yazıyı Yazınız","")
 if(yazi == null){
 console.log("null engellendi")
 }else{
@@ -19,7 +19,7 @@ prompt("Sonuç",e)
 }
 
 function decode(){
-var yazi = prompt("Şifresini Çözmek İstediğiniz Yazıyı Yazınız")
+var yazi = prompt("Şifresini Çözmek İstediğiniz Yazıyı Yazınız","")
 var a = window.atob(yazi)
 var b = window.atob(a)
 var c = window.atob(b)
