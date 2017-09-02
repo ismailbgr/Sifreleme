@@ -9,12 +9,14 @@ var b = window.btoa(a)
 var c = window.btoa(b)
 var d = window.btoa(c)
 var e = window.btoa(d)
+var f = window.btoa(e)
 console.log(a)
 console.log(b)
 console.log(c)
 console.log(d)
 console.log(e)
-prompt("Sonuç",e)
+console.log(f)
+prompt("Sonuç",f)
 }
 }
 
@@ -24,17 +26,19 @@ var a = window.atob(yazi)
 var b = window.atob(a)
 var c = window.atob(b)
 var d = window.atob(c)
-var e = decodeURI(d)
+var e = window.atob(d)
+var f = decodeURI(e)
 console.log(yazi)
 console.log(a)
 console.log(b)
 console.log(c)
 console.log(d)
 console.log(e)
+console.log(f)
 if(c=="null"){
 console.log("null bulundu")
 alert("Hata 01 Gönderilen Yazının İçeriği Boş")
 }else{
-prompt("Sonuç",e)
+prompt("Sonuç",f)
 }
 }
